@@ -1,0 +1,77 @@
+.projects-section h1{
+    font-size: 11vh;
+
+}
+.projects-section {
+    height: 280vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    background-color: #86857E;
+    line-height: 70px;
+}
+
+.projects-text h1{
+    width: 500px;
+    color: #303030 !important;
+}
+
+.project-1 {
+    width: 80%;
+    max-width: 1000px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px !important;
+    border-bottom: .5px solid #fff;
+
+   
+}
+
+.tools {
+    padding-left: 00px !important;
+
+}
+
+.left {
+    width: 30%;
+    height: 530px;
+    z-index: 1000;
+}
+
+.right {
+    width: 70%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border: solid 1px rgb(206, 206, 206);
+    background: rgb(171, 172, 166);
+    margin-left: -150px !important;
+    
+
+}
+
+
+.left-3 {
+    width: 30%;
+    height: 530px;
+    z-index: 1000;
+    margin-left: -150px !important;
+}
+
+.right-3 {
+    width: 70%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border: solid 1px rgb(206, 206, 206);
+    background: rgb(171, 172, 166);
+    
+
+}
