@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ogdevportfolio/static/css/main.8dcfdbed.chunk.css",
+    "main.js": "/ogdevportfolio/static/js/main.c6b51532.chunk.js",
+    "main.js.map": "/ogdevportfolio/static/js/main.c6b51532.chunk.js.map",
+    "runtime-main.js": "/ogdevportfolio/static/js/runtime-main.fe97c761.js",
+    "runtime-main.js.map": "/ogdevportfolio/static/js/runtime-main.fe97c761.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/ogdevportfolio/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.08c29f1b.chunk.js": "/ogdevportfolio/static/js/2.08c29f1b.chunk.js",
+    "static/js/2.08c29f1b.chunk.js.map": "/ogdevportfolio/static/js/2.08c29f1b.chunk.js.map",
+    "static/js/3.0f3989ac.chunk.js": "/ogdevportfolio/static/js/3.0f3989ac.chunk.js",
+    "static/js/3.0f3989ac.chunk.js.map": "/ogdevportfolio/static/js/3.0f3989ac.chunk.js.map",
+    "index.html": "/ogdevportfolio/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/ogdevportfolio/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.8dcfdbed.chunk.css.map": "/ogdevportfolio/static/css/main.8dcfdbed.chunk.css.map",
+    "static/js/2.08c29f1b.chunk.js.LICENSE.txt": "/ogdevportfolio/static/js/2.08c29f1b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ogdevportfolio/static/media/bg.dd9a53c0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe97c761.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.08c29f1b.chunk.js",
+    "static/css/main.8dcfdbed.chunk.css",
+    "static/js/main.c6b51532.chunk.js"
+  ]
+}
