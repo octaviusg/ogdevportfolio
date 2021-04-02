@@ -1,0 +1,68 @@
+.contact-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-color);
+  line-height: 7vh;
+}
+
+.contact-section h1 {
+  font-size: 4.5vh;
+}
+
+.contact-text {
+  margin-top: 40px !important;
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+  width: 980px;
+}
+
+.sub-text {
+  margin-top: 40px !important;
+}
+
+.email {
+  text-decoration: none;
+}
+
+.ig span {
+  color: var(--nav-tertiary);
+  transition: all 0.3s ease-in-out;
+}
+.ig span:hover {
+  color: nav(--text-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.github span {
+  color: var(--nav-primary);
+  transition: all 0.3s ease-in-out;
+}
+.github span:hover {
+  color: var(--text-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.linkedin span {
+  color: var(--nav-secondary);
+  transition: all 0.3s ease-in-out;
+}
+.linkedin span:hover {
+  color: var(--text-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .contact-section h1 {
+    font-size: 2.7vh !important;
+  }
+
+  .contact-section {
+    align-items: center;
+    height: 100vh;
+  }
+}

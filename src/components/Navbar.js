@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import "../components/Navbar.css";
 
 import { Link } from "react-scroll";

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Info.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Main.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -8,6 +9,11 @@ class Main extends Component {
     Aos.init({ duration: 3000 });
     return (
       <div className="main-section" id="main">
+        <div className="base one"></div>
+        <div className="base two"></div>
+        <div className="base three"></div>
+        <div className="base four"></div>
+
         <div data-aos="fade-up" className="bio">
           <h1>
             <span className="hello">Hello</span>, I am a web developer based out

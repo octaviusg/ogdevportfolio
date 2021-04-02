@@ -67,6 +67,7 @@
     overflow-x: hidden;
   }
   .project-1 h1 {
-    font-size: 8vh !important;
+    font-size: 5vh !important;
+    line-height: 5vh;
   }
 }

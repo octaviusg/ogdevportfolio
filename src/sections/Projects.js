@@ -11,7 +11,7 @@ class Projects extends Component {
       <div className="projects-section" id="projects">
         <div className="project-1">
           <div className="left" data-aos="fade-right">
-            <h1>The 830 Times</h1>
+            <h1>830Times</h1>
           </div>
           <div className="right" data-aos="fade-up">
             img placeholder{" "}
