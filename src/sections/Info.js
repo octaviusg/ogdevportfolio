@@ -26,10 +26,9 @@ class Info extends Component {
           <h1>Skills & Experience</h1>
           <p>
             Well-organized person, problem solver, independent employee with
-            high attention to detail. knowledgeable of various developing tools.
+            high attention to detail. Knowledgeable of various developing tools.
             My expertise takes place in the frontend with proficiency in
-            JavaScript, CSS, HTML, and approaching my developments using the
-            MERN Stack, for deployment Heroku, GitHub.
+            JavaScript, CSS, HTML.
           </p>
         </div>
       </div>

@@ -14,7 +14,7 @@ class Main extends Component {
         <div className="base three"></div>
         <div className="base four"></div>
 
-        <div data-aos="fade-up" className="bio">
+        <div data-aos="fade" className="bio">
           <h1>
             <span className="hello">Hello</span>, I am a web developer based out
             of Austin, Tx.
