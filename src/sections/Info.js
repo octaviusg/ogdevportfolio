@@ -8,19 +8,18 @@ class Info extends Component {
   render() {
     Aos.init({ duration: 2000 });
     return (
-      <div className="info-section" id="info">
+      <div data-aos="example-anim3" className="info-section" id="info">
         <div className="info-img">img-placeholder</div>
         <div data-aos="fade" className="info-text">
           <h1>Background</h1>
 
           <p>
-            Born and raised in Del Rio, Texas. In early parts of my life, I
-            found myself following the path of web development, by picking up
-            free-lance work through the early social networks that were
-            available. I'm quite fortunate to have spent the time with the
-            basics which has helped me ease my way through the new frameworks
-            that are available today. Nowadays I find myself adapting and
-            learning how to implement new technologies within my projects.
+            Born and raised in Texas. In early parts of my life, I found myself
+            following the path of web development, by picking up free-lance work
+            through the early social networks available. The understanding of
+            prior technologies has helped me ease my way through the new
+            frameworks that are available today. Nowadays I find myself adapting
+            and learning how to implement new methods within my projects.
           </p>
 
           <h1>Skills & Experience</h1>

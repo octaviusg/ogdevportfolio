@@ -12,22 +12,42 @@
   letter-spacing: 1px;
   margin: 0px 0px 0px 0px !important;
   padding: 0px !important;
-  font-family: "jost", sans-serif;
+  font-family: "Jost", Arial, Helvetica;
 }
 
 body {
   background-color: var(--bg-color);
 }
 
-html {
-  overflow: scroll;
-  overflow-x: hidden;
+[data-aos="example-anim2"] {
+  background: #121212;
+  transition-property: background;
 }
+[data-aos="example-anim2"].aos-animate {
+  background: #86857e;
+}
+
+[data-aos="example-anim3"] {
+  background: #86857e;
+  transition-property: background;
+}
+[data-aos="example-anim3"].aos-animate {
+  background: #181a1f;
+}
+
+[data-aos="example-anim4"] {
+  background: #181a1f;
+  transition-property: background;
+}
+[data-aos="example-anim4"].aos-animate {
+  background: #121212;
+}
+
 ::-webkit-scrollbar {
   width: 0; /* Remove scrollbar space */
   background: transparent; /* Optional: just make scrollbar invisible */
 }
-/* Optional: show position indicator in red */
+
 ::-webkit-scrollbar-thumb {
   background: transparent;
 }
@@ -35,30 +55,4 @@ html {
 span {
   text-decoration: none;
   display: inline-block;
-}
-
-@media screen and (max-width: 960px) {
-  .bio {
-    font-size: 1.8vh !important;
-  }
-
-  .bio p {
-    font-size: 2.4vh !important;
-  }
-  .info-section {
-    padding-top: 100px !important;
-    padding-bottom: 100px !important;
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-  }
-
-  .contact-section h1 {
-    font-size: 2.7vh !important;
-  }
-
-  .contact-section {
-    align-items: center;
-    height: 100vh;
-  }
 }

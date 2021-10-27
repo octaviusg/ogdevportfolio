@@ -12,12 +12,16 @@
     "jquery": "^3.6.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-draggable": "^4.4.4",
     "react-external-link": "^1.2.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
     "react-mailto": "^0.4.0",
     "react-particles-js": "^3.4.1",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.2",
     "reactv16-mailto": "^0.4.4",
+    "swiper": "^6.6.2",
     "web-vitals": "^1.1.1"
   },
   "scripts": {

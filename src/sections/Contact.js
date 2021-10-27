@@ -11,40 +11,37 @@ class Contact extends Component {
   render() {
     Aos.init({ duration: 2000 });
     return (
-      <div className="contact-section" id="contact">
+      <div data-aos="example-anim4" className="contact-section" id="contact">
         <div data-aos="fade-up" className="contact-text">
-          <h1>For work inquiries / questions send me an email:</h1>
+          For work inquiries / questions send me an email:
           <Mailto
             className="email"
-            email="hello@octaviogarcia.com"
+            email="hello@octaviogarcia.co"
             obfuscate={true}
           >
-            <h1>hello@octaviogarcia.co</h1>
+            {" "}
+            hello@octaviogarcia.co
           </Mailto>
-
-          <h1 className="sub-text">
-            I share some of my work on{" "}
-            <ExternalLink
-              className="ig"
-              href="https://www.instagram.com/octaviodevs/"
-            >
-              <span>Instagram.</span>
-            </ExternalLink>{" "}
+          <div className="sub-text">
             Most of my repos can be found on{" "}
             <ExternalLink
               className="github"
               href="https://github.com/octaviusg"
             >
-              <span>Github.</span>
+              <span>GitHub.</span>
             </ExternalLink>{" "}
             The information that is on this website can be also be found on my{" "}
             <ExternalLink
               className="linkedin"
               href="https://linkedin.com/in/octaviusgarcia"
             >
-              <span>LinkedIn.</span>
-            </ExternalLink>
-          </h1>
+              <span>LinkedIn. </span>
+            </ExternalLink>{" "}
+            From time to time I step out of my dweling and practice{" "}
+            <ExternalLink className="ig" href="https://octaviogarcia.co">
+              <span>photography.</span>
+            </ExternalLink>{" "}
+          </div>
         </div>
       </div>
     );

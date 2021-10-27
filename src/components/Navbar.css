@@ -6,9 +6,16 @@
   position: sticky;
   height: 0;
   top: 0;
-  font-size: 2vh;
+  font-size: 10pt;
+  font-weight: 300;
   z-index: 1000;
   cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none;
+  user-select: none;
 }
 .navLinks {
   display: flex;
@@ -36,11 +43,13 @@
 }
 
 .brand {
-  font-size: 2.5vh;
+  font-size: 12pt;
   padding: 30px !important;
   font-family: "Jost", sans-serif;
   letter-spacing: 2px !important;
   cursor: pointer;
+  z-index: 1000;
+  font-weight: normal;
 }
 .brand:hover {
   border-bottom: none !important;

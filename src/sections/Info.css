@@ -4,15 +4,17 @@
   margin-left: 40px !important;
   width: 750px;
   font-size: 2.3vh;
+  font-weight: 300;
 }
 .info-text h1 {
   margin-bottom: 10px !important;
-  font-size: 3vh;
+  font-size: 16pt;
+  font-weight: normal;
 }
 
 .info-text p {
   margin-bottom: 25px !important;
-  font-size: 2.5vh;
+  font-size: 12pt;
 }
 
 .info-section {
