@@ -1,12 +1,9 @@
-<br />
 <div align="center">
 
 <h3 align="center">Web Dev Portfolio</h3>
 
   <p align="center"> 
-    <br />
     <a href="#"></a>
-    
   </p>
 </div>
 
