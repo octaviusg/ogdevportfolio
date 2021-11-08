@@ -2,8 +2,9 @@
   height: 100vh;
   display: flex;
   align-items: center;
+  line-height: 2.2;
+  font-weight: 300;
   background-color: var(--bg-color);
-  line-height: 7vh;
 }
 
 .contact-section h1 {
@@ -11,12 +12,10 @@
 }
 
 .contact-text {
-  margin-top: 40px !important;
   margin-left: 30px !important;
-  margin-right: 30px !important;
+  margin-right: 20px !important;
   width: 980px;
-  font-weight: 300;
-  font-size: 23pt;
+  font-size: 18pt;
 }
 
 .sub-text {
@@ -61,6 +60,11 @@
 @media screen and (max-width: 960px) {
   .contact-section h1 {
     font-size: 18pt !important;
+  }
+
+  .contact-text {
+    font-size: 13pt !important;
+    margin-left: 1rem !important;
   }
 
   .contact-section {

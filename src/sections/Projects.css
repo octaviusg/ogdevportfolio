@@ -2,12 +2,12 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 3rem !important;
+  padding-top: 5rem !important;
   background-color: #86857e;
 }
 
 .projectWrapper {
-  width: 85%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   font-weight: 300;
@@ -15,91 +15,41 @@
 
 .project-1 {
   display: flex;
-  margin-bottom: 2rem !important;
+  margin-bottom: 3rem !important;
   flex-direction: column;
   flex-wrap: wrap;
-  line-height: 1.8;
   border-bottom: solid 1px #f0f0f01a;
 }
 
-.project-2 {
-  margin: 0 auto;
+.right {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 2rem !important;
-  border-bottom: solid 1px #f0f0f01a;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.project-3 {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2rem !important;
-  border-bottom: solid 1px #f0f0f01a;
-}
-.project-4 {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2rem !important;
-  border-bottom: solid 1px #f0f0f01a;
-}
-
-.projectImg2 {
-  border-radius: 5px;
-  margin-left: 2rem !important;
-}
-
-.right img {
-  width: 80%;
-  border-radius: 5px;
-}
-
-.left {
-  position: relative;
-  top: 30px;
-  line-height: 1;
+.projectTitle {
   font-size: 60pt;
   font-weight: normal;
-}
-
-.projectText3 {
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
-  width: 80%;
-}
-
-.projectText2 {
-  margin-top: 1rem !important;
-  display: flex;
-  width: 78%;
 }
 
 .projectText {
   display: flex;
   width: 80%;
-}
-
-.projectImg {
-  width: 100%;
-  border-radius: 5px;
   margin-top: 1rem !important;
+  justify-content: flex-start;
 }
 
-.projectImg img {
-  width: 300px;
-  margin-left: 1rem !important;
+.hifiCoverweb {
+  width: 68%;
+  height: min-content;
+  border-radius: 6px;
 }
 
-.projectImg3 img {
-  width: 100%;
-  border-radius: 5px;
-  margin-top: 1rem !important;
+.hifiCoverMobile {
+  width: 20%;
+  margin-left: 2rem !important;
 }
 
-.projectText4 {
-  width: 80%;
-}
 .projectLinks {
   display: flex;
   flex-direction: row;
@@ -120,26 +70,61 @@
   font-size: 10pt;
 }
 
+.PPLink {
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  height: 30px !important;
+  background-color: transparent;
+}
+
+.PPLink:hover {
+  color: var(--text-color);
+  border-bottom: solid rgb(255, 255, 255) 1px;
+}
+
+.singlePLinkDisabled {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: not-allowed;
+  font-size: 10pt;
+}
+
 @media (max-width: 576px) {
-  .left {
+  .projectTitle {
     top: 18px;
     font-size: 40pt;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .right img {
     width: 100%;
   }
 
-  .projectText2 {
-    display: flex;
-    flex-direction: column;
+  .hifiCoverMobile {
+    width: 70% !important;
+    margin-left: 0 !important;
+    margin-top: 2rem !important;
   }
 
   .projectLinks {
     display: flex;
     flex-direction: row;
     display: flex;
+    justify-content: center;
     margin-top: 30px !important;
+  }
+
+  .projectText {
+    display: flex;
+    width: 100%;
+    justify-content: center !important;
   }
 }
 

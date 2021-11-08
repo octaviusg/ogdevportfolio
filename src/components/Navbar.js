@@ -10,7 +10,7 @@ class Navbar extends Component {
       <div className="navbar">
         <div className="brand">
           <Link
-            to="/projects"
+            to="projects"
             spy={true}
             smooth={true}
             hashSpy={true}

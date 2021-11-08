@@ -10,6 +10,7 @@ class Contact extends Component {
   state = {};
   render() {
     Aos.init({ duration: 2000 });
+
     return (
       <div data-aos="example-anim4" className="contact-section" id="contact">
         <div data-aos="fade-up" className="contact-text">
@@ -30,14 +31,14 @@ class Contact extends Component {
             >
               <span>GitHub.</span>
             </ExternalLink>{" "}
-            The information that is on this website can be also be found on my{" "}
+            The information that is on this website can also be found on my{" "}
             <ExternalLink
               className="linkedin"
               href="https://linkedin.com/in/octaviusgarcia"
             >
               <span>LinkedIn. </span>
             </ExternalLink>{" "}
-            From time to time I step out of my dweling and practice{" "}
+            From time to time I step out of my dwelling and practice{" "}
             <ExternalLink className="ig" href="https://octaviogarcia.co">
               <span>photography.</span>
             </ExternalLink>{" "}

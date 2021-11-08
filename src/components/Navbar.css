@@ -44,7 +44,7 @@
 
 .brand {
   font-size: 12pt;
-  padding: 30px !important;
+  padding: 2rem !important;
   font-family: "Jost", sans-serif;
   letter-spacing: 2px !important;
   cursor: pointer;
@@ -70,12 +70,22 @@
 }
 
 @media screen and (max-width: 960px) {
-  .hamburger-toggle {
-    padding: 30px !important;
-    display: none;
+  .brand {
+    font-size: 12pt;
+    padding: 2rem !important;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 2px !important;
+    cursor: pointer;
+    z-index: 1000;
+    font-weight: normal;
   }
-
   .navLinks {
     display: none;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .brand {
+    padding: 1rem !important;
   }
 }

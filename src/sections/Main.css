@@ -23,7 +23,6 @@
   top: 90px;
   z-index: 4;
   transition: all ease 500ms;
-  cursor: move;
 }
 
 .three {
@@ -35,7 +34,6 @@
   z-index: 2;
   background-color: #48a4f5;
   transition: all ease 500ms;
-  cursor: move;
 }
 
 .four {
@@ -46,7 +44,7 @@
   left: 320px;
   z-index: 3;
   background-color: rgb(221, 75, 75);
-  cursor: move;
+
   transition: all ease 500ms;
 }
 
@@ -69,11 +67,6 @@
   user-select: none;
 }
 
-:root {
-  --delay: 0;
-  --duration: 800ms;
-  --iterations: 1;
-}
 /* •·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•· */
 
 .reveal-text,
@@ -91,7 +84,7 @@
 }
 
 .reveal-text {
-  --animation-delay: var(--delay, 0);
+  --animation-delay: var(--delay, 1.2s);
   --animation-duration: var(--duration, 800ms);
   --animation-iterations: var(--iterations, 1);
   position: relative;
@@ -117,11 +110,6 @@
   pointer-events: none;
   -webkit-animation-name: text-revealer;
   animation-name: text-revealer;
-}
-
-.four:hover {
-  transform: scale(1.1);
-  transition: all ease 500ms;
 }
 
 @keyframes shake {
@@ -200,7 +188,34 @@
 
 @media (max-width: 576px) {
   .reveal-text {
-    font-size: 18pt;
+    font-size: 16pt;
+  }
+
+  .bio {
+    padding: 0px 1rem 0 1rem !important;
+  }
+  .one {
+    width: 200px;
+    height: 200px;
+    left: 290px;
+    top: -50px;
+    z-index: 4;
+  }
+
+  .three {
+    width: 300px;
+    height: 300px;
+    bottom: 10px;
+    right: -80px;
+    z-index: 2;
+  }
+
+  .four {
+    width: 400px;
+    height: 400px;
+    top: 20px;
+    left: -40px;
+    z-index: 3;
   }
 }
 

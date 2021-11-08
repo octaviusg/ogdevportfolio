@@ -12,7 +12,7 @@
   letter-spacing: 1px;
   margin: 0px 0px 0px 0px !important;
   padding: 0px !important;
-  font-family: "Jost", Arial, Helvetica;
+  font-family: "Jost", sans-serif;
 }
 
 body {
@@ -41,15 +41,6 @@ body {
 }
 [data-aos="example-anim4"].aos-animate {
   background: #121212;
-}
-
-::-webkit-scrollbar {
-  width: 0; /* Remove scrollbar space */
-  background: transparent; /* Optional: just make scrollbar invisible */
-}
-
-::-webkit-scrollbar-thumb {
-  background: transparent;
 }
 
 span {
