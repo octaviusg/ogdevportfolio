@@ -13,7 +13,7 @@
 ## Info
 
    <a href="https://github.com/octaviusg/albumcover">
-    <img src="./build/assets/images/Screen%20Shot%202021-11-03%20at%2011.09.02%20PM.png" alt="app-screenshot" height="300">
+    <img src="./public/assets/images/webscreen.png" alt="app-screenshot" height="300">
   </a>
 
 ### Built With
